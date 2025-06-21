@@ -1,0 +1,24 @@
+.circles {
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  top: 70px;
+}
+
+.tier {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.circle {
+  background-color: white;
+  color: white;
+  border-radius: 60px;
+  padding: 30px;
+}
+
+.circle:hover {
+  background-color: rgb(222, 220, 220);
+  cursor: pointer;
+}
