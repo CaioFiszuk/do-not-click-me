@@ -1,0 +1,20 @@
+.invertedText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+    transform: scaleX(-1);
+    cursor: default;
+}
+
+.invertedText__button{
+    color: yellow;
+    background-color: transparent;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    transform: scaleX(-1);
+}

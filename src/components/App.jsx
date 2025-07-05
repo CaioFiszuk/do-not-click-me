@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -5,7 +6,9 @@ function App() {
     <div>
        <section className="circles">
         <div className="tier">
-          <div className="circle">  </div>
+          <Link to={'/page1'}>
+            <div className="circle">  </div> 
+          </Link>
         </div>
         <div className="tier">
           <div className="circle">  </div>
