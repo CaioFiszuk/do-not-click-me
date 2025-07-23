@@ -8,7 +8,7 @@ function CircleTwo() {
     const ctx = canvas.getContext('2d');
 
     const messages = ["Quantos olhos há do outro lado da tela?", "A vigília nunca terminou.", "A próxima vez, ele piscará diferente.", "Não é você quem está movendo o cursor.", "Você só vê porque alguém permite.", "Tudo o que ele vê, ele guarda.", "Você o encarou por mais tempo do que devia.", "Este é seu chamado", "O último que clicou, nunca mais saiu.", "Você é a única coisa estranha aqui... por enquanto.", "O espelho também vê.", "A pupila dilata quando percebe medo.", "Isso não é apenas um olho.", "Olhos não veem. Eles mostram.", "Não olhe atrás de você"];
-    //const backgroundSound = new Audio('/audio/573790_klankbeeld_horror-bowl.mp3');
+    const backgroundSound = new Audio('/audio/573790__klankbeeld__horror-bowl.mp3');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
@@ -75,14 +75,14 @@ function CircleTwo() {
     };
 
     const handleEyeClick = () => {
-      //backgroundSound.play();
+      backgroundSound.play();
       alert(messages[Math.floor(Math.random() * messages.length)]);
     }
 
     window.addEventListener('mousemove', handleMouseMove);
     canvas.addEventListener('click', handleEyeClick);
 
-    //backgroundSound.loop = true;
+    backgroundSound.loop = true;
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
