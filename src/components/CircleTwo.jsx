@@ -88,6 +88,7 @@ function CircleTwo() {
       window.removeEventListener('mousemove', handleMouseMove);
       canvas.removeEventListener('click', handleEyeClick);
       clearInterval(blinkInterval);
+      backgroundSound.pause();
     };
   }, []);
 

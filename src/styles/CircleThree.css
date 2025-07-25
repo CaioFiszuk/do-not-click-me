@@ -1,0 +1,52 @@
+.circleThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repeatInput {
+   height: 60px;
+   width: 400px;
+   border-right: white;
+   background-color: transparent;
+   color: white;
+   font-size: 30px;
+   margin-top: 300px;
+   margin-bottom: 30px;
+}
+
+.repeatInput:focus {
+  outline: none;
+  border-right: white;
+  background-color: transparent;
+  color: white;
+}
+
+.temporaryMessage {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    animation: fade 3s ease infinite;
+    position: absolute;
+}
+
+.echo-button {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.echo-button:hover {
+  border: 1px solid gray;
+  color: gray;
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
