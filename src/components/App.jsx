@@ -19,7 +19,9 @@ function App() {
           </Link>
         </div>
         <div className="tier">
-          <div className="circle">  </div>
+          <Link to={'/page4'}>
+            <div className="circle">  </div>
+          </Link>
           <div className="circle">  </div>
           <div className="circle">  </div>
         </div>

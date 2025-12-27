@@ -1,0 +1,16 @@
+.btn-exit {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 560px;
+    top: 260px;
+    cursor: pointer;
+}
+
+.btn-exit:hover {
+    background-color: rgb(211, 3, 3);
+}

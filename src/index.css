@@ -1,6 +1,7 @@
 @import url('./styles/App.css');
 @import url('./styles/CircleOne.css');
 @import url('./styles/CircleThree.css');
+@import url('./styles/CircleFour.css');
 
 * {
   margin: 0;
