@@ -1,0 +1,54 @@
+.container {
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 150px auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.square:hover {
+    transform: scale(1.2);
+}
+
+.pink {
+    background-color: fuchsia;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.royalblue {
+    background-color: royalblue;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.olive {
+    background-color: olivedrab;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.cyan {
+    background-color: seagreen;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.brown {
+    background-color: brown;
+}

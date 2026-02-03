@@ -5,6 +5,7 @@ import CircleTwo from '../components/CircleTwo.jsx';
 import CircleThree from '../components/CircleThree.jsx';
 import CircleFour from '../components/CircleFour.jsx';
 import CircleFive from '../components/CircleFive.jsx';
+import CircleSix from '../components/CircleSix.jsx';
 
 export function AppRoutes(){
     return(
@@ -15,6 +16,7 @@ export function AppRoutes(){
             <Route path='/page3' element={<CircleThree />}/>
             <Route path='/page4' element={<CircleFour />}/>
             <Route path='/page5' element={<CircleFive />}/>
+            <Route path='/page6' element={<CircleSix />} />
         </Routes>
     );
 }
